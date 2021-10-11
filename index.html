@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Landing Page Fcamara</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,600&display=swap');
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://www.fcamara.com.br" target="_blank"><img class="logo" src="https://blog.fcamara.com.br/wp-content/uploads/2019/10/Logotipo-FCamara.png"/></a>
+  </header>
+  <section class="headline">
+    <img src="https://www.mgpconsultoria.com.br/wp-content/uploads/2018/05/Análise-de-processo-eSocial-3.png"/>
+    <div class="wrapper">
+      <h1>Estamos reabrindo as portas da casa</h1>
+      <p>Nossos consultores #SangueLaranjas agora podem retornar às suas jornadas presenciais. Mas, atenção: <br>o retorno é <span>opcional</span>. Então, se você reside longe de uma de nossas unidades (São Paulo e Santos) ou se ainda não se sente confortável em retornar, nao se preocupe. As jornadas em home office continuam!</p>
+    </div>
+  </section>
+  <section class="form">
+    <div class="wrapper">
+      <h2>Quer voltar? Entenda quais serão as medidas adotadas para a jornada presencial</h2>
+      <ul>
+        <li>Nossos escritórios ficarão abertos das 8h às 18h</li>
+        <li>Todos os presentes terão suas temperaturas aferidas na entrada</li>
+        <li>Lembre-se: o uso de máscara é obrigatório</li>
+        <li>Para garantir o conforto e a segurança de nossos #SangueLaranjas, todas as mesas terão adesivos indicando onde cada um consultor deverá sentar</li>
+        <li>Caso sintam algum sintoma, você pode continuar em home office</li>
+        <li>Os escritórios só comportarão 40% de sua capacidade, conforme legislação. Então, caso tenha interesse, basta fazer seu agendamento aqui ao lado!</li>
+      </ul>
+    </div>
+    <form id="form" action="https://codepen.io/sucodelarangela/full/wvqBMyY">
+      <label for="fullname">Nome completo*</label><br>
+      <input type="text" id="name" required><br>
+      <label for="register">Número da matrícula*</label><br>
+      <input type="number" id="reg" required><br>
+      <label for="location">Escolha em qual unidade deseja ficar*</label><br>
+      <select id="location" required>
+        <option value="selecione">Selecione</option>
+        <option value="sp">São Paulo - Matriz</option>
+        <option value="santos">Santos - Filial</option>
+      </select><br>
+      <label for="date">Selecione o período desejado para a jornada presencial*</label><br>
+      <input type="date" id="date" required><br>
+      <label for="wstation">Marque a estação de trabalho desejada*</label><br>
+      <table class="seats">
+        <tr>
+          <td><input type="radio" name="seat" value="01" required/><label for="01">01</label></td>
+          <td><input type="radio" name="seat" value="02"/><label for="02">02</label></td>
+          <td><input type="radio" name="seat" value="03"/><label for="03">03</label></td>
+          <td><input type="radio" name="seat" value="04"/><label for="04">04</label></td>
+          <td><input type="radio" name="seat" value="05"/><label for="05">05</label></td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="seat" value="06"/><label for="06">06</label></td>
+          <td><input type="radio" name="seat" value="07"/><label for="07">07</label></td>
+          <td><input type="radio" name="seat" value="08"/><label for="08">08</label></td>
+          <td><input type="radio" name="seat" value="09"/><label for="09">09</label></td>
+          <td><input type="radio" name="seat" value="10"/><label for="10">10</label></td>
+        </tr></table><br>
+      <button type="submit" id="btn" onClick="book()">Faça seu agendamento</button>
+    </form>
+  </section>
+  <section class="social">
+    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGgIMLjpKVdZQ/profile-displayphoto-shrink_800_800/0/1617912369707?e=1639008000&v=beta&t=JCsR9PmZRoaEy-QX0e-g5Z5wTEgTuNL7Ynwi3j1k1rU">
+    <div class="wrapper">
+      <h2>“Uma nova etapa, agora no Grupo FCamara. Muito animada pra essa jornada, cheia de oportunidades! ❤️🍊 #sanguelaranja”</h2>
+      <p>Mileide Ribeiro, UX Designer | Product Designer<br>via LinkedIn</p>
+    </div>
+  </section>
+  <section class="address">
+    <h2>Transformação cultural, digital e cognitiva</h2>
+    <p>São Paulo<br><span>MATRIZ<br>Rua Bela Cintra, 986 - 2º andar<br>Consolação, São Paulo - SP</span></p>
+    <p>Santos<br><span>FILIAL<br>Praça Dos Expedicionários, 19<br>2º andar<br>Gonzaga, Santos - SP</span></p>
+  </section>
+</body>
+<footer>
+  <h2>Siga nossas <span>Redes Sociais</span></h2>
+  <a href="https://linktr.ee/grupofcamara" target="_blank"><img src="https://blog.fcamara.com.br/wp-content/uploads/2021/06/Redes-sociais.png"/></a>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,280 @@
+header{
+  position: absolute;
+  width: 1440px;
+  height: 122px;
+  left: 0%;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+.logo {
+  position: absolute;
+  width: 150px;
+  left: calc(50% - 150px/2 - 485px);
+  top: 45px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+/*   position: relative; */
+  width: 100vw;
+  max-width: 1440px;
+  height: 2493px;
+  background: #ffffff;
+}
+
+.headline {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 480px;
+  left: 0px;
+  top: 122px;
+  background: #FFFFFF;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.headline img {
+  width: 100vw;
+  max-width: 400px;
+  left: 235px;
+  top: 162px;
+  padding-left: 85px;
+}
+
+h1 {
+  width: 475px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FE4400;
+  padding-left: 95px;
+}
+
+.headline p {
+  width: 540px;
+  height: 240px;
+  left: 730px;
+  top: 302px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 175%;
+  /* or 35px */
+  padding-left: 95px;
+  color: #303033;
+}
+
+span {
+  font-weight: 900;
+}
+
+.form {
+  position: absolute;
+  width: 1440px;
+  height: 850px;
+  left: 0px;
+  top: 602px;
+  background: #EF653C;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 175%;
+/* or 35px */
+  color: #FFFFFF;
+}
+
+.form h2 {
+  width: 550px;
+  height: 140px;
+  left: 160px;
+  margin-top: 100px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+ul {
+  width: 540px;
+  height: 460px;
+  left: 150px;
+  top: 882px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 175%;
+/* or 35px */
+  color: #FFFFFF;
+}
+
+#form {
+  position: absolute;
+  width: 483px;
+  height: 600px;
+  left: 800px;
+  top: 100px;
+  margin-top: 0px;
+  font-size: 20px;
+  line-height: 175%;
+/* or 35px */
+  color: #FFFFFF;
+}
+
+input, select {
+  width: 475px;
+  height: 50px;
+  left: 805px;
+  top: 737px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Montserrat';
+}
+
+.seats input {
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+
+td {
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.form button {
+  width: 349px;
+  height: 69px;
+  margin-left: 70px;
+  background-color: #4B4FA1;
+  border-radius: 8px;
+  border: 0;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 175%;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #414099;
+}
+
+.social {
+  position: absolute;
+  display: flex;
+  width: 1440px;
+  height: 500px;
+  left: 0px;
+  top: 1452px;
+  background: #F3F4F9;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.social img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 85px;
+}
+
+.social h2 {
+  width: 590px;
+  height: 225px;
+  left: 615px;
+  margin: 0px;
+  padding-left: 80px;
+  padding-top: 100px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #333333;
+}
+
+.social p {
+  width: 540px;
+  height: 75px;
+  padding-left: 80px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 175%;
+  /* or 35px */
+  color: #303033;
+}
+
+.address {
+  position: absolute;
+  display: flex;
+  width: 1440px;
+  height: 300px;
+  left: 0px;
+  top: 1953px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background: #4B4FA1;
+}
+
+.address h2 {
+  align-self: center;
+  width: 490px;
+  height: 100px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.address p {
+  align-self: center;
+  width: 265px;
+  height: 115px;
+  padding-left: 60px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 175%;
+  /* or 31px */
+  color: #FFFFFF;
+}
+
+.address span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  width: 1440px;
+  height: 240px;
+  left: 0px;
+  top: 2253px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background: #303033;
+}
+
+footer h2 {
+  align-self: center;
+  width: 435px;
+  height: 40px;
+  left: 235px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+footer img, a {
+  align-self: center;
+  width: 300px;
+  height: 40px;
+  padding-left: 235px;
+}
