@@ -1,92 +1,211 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Landing Page Fcamara</title>
-  <link rel="stylesheet" href="./style.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FCamara | Landing Page</title>
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<head>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,600&display=swap');
-  </style>
-</head>
-<body>
-  <header>
-    <a href="https://www.fcamara.com.br" target="_blank"><img class="logo" src="https://blog.fcamara.com.br/wp-content/uploads/2019/10/Logotipo-FCamara.png"/></a>
-  </header>
-  <section class="headline">
-    <img src="https://www.mgpconsultoria.com.br/wp-content/uploads/2018/05/Análise-de-processo-eSocial-3.png"/>
-    <div class="wrapper">
-      <h1>Estamos reabrindo as portas da casa</h1>
-      <p>Nossos consultores #SangueLaranjas agora podem retornar às suas jornadas presenciais. Mas, atenção: <br>o retorno é <span>opcional</span>. Então, se você reside longe de uma de nossas unidades (São Paulo e Santos) ou se ainda não se sente confortável em retornar, nao se preocupe. As jornadas em home office continuam!</p>
-    </div>
-  </section>
-  <section class="form">
-    <div class="wrapper">
-      <h2>Quer voltar? Entenda quais serão as medidas adotadas para a jornada presencial</h2>
-      <ul>
-        <li>Nossos escritórios ficarão abertos das 8h às 18h</li>
-        <li>Todos os presentes terão suas temperaturas aferidas na entrada</li>
-        <li>Lembre-se: o uso de máscara é obrigatório</li>
-        <li>Para garantir o conforto e a segurança de nossos #SangueLaranjas, todas as mesas terão adesivos indicando onde cada um consultor deverá sentar</li>
-        <li>Caso sintam algum sintoma, você pode continuar em home office</li>
-        <li>Os escritórios só comportarão 40% de sua capacidade, conforme legislação. Então, caso tenha interesse, basta fazer seu agendamento aqui ao lado!</li>
-      </ul>
-    </div>
-    <form id="form" action="https://codepen.io/sucodelarangela/full/wvqBMyY">
-      <label for="fullname">Nome completo*</label><br>
-      <input type="text" id="name" required><br>
-      <label for="register">Número da matrícula*</label><br>
-      <input type="number" id="reg" required><br>
-      <label for="location">Escolha em qual unidade deseja ficar*</label><br>
-      <select id="location" required>
-        <option value="selecione">Selecione</option>
-        <option value="sp">São Paulo - Matriz</option>
-        <option value="santos">Santos - Filial</option>
-      </select><br>
-      <label for="date">Selecione o período desejado para a jornada presencial*</label><br>
-      <input type="date" id="date" required><br>
-      <label for="wstation">Marque a estação de trabalho desejada*</label><br>
-      <table class="seats">
-        <tr>
-          <td><input type="radio" name="seat" value="01" required/><label for="01">01</label></td>
-          <td><input type="radio" name="seat" value="02"/><label for="02">02</label></td>
-          <td><input type="radio" name="seat" value="03"/><label for="03">03</label></td>
-          <td><input type="radio" name="seat" value="04"/><label for="04">04</label></td>
-          <td><input type="radio" name="seat" value="05"/><label for="05">05</label></td>
-        </tr>
-        <tr>
-          <td><input type="radio" name="seat" value="06"/><label for="06">06</label></td>
-          <td><input type="radio" name="seat" value="07"/><label for="07">07</label></td>
-          <td><input type="radio" name="seat" value="08"/><label for="08">08</label></td>
-          <td><input type="radio" name="seat" value="09"/><label for="09">09</label></td>
-          <td><input type="radio" name="seat" value="10"/><label for="10">10</label></td>
-        </tr></table><br>
-      <button type="submit" id="btn" onClick="book()">Faça seu agendamento</button>
-    </form>
-  </section>
-  <section class="social">
-    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGgIMLjpKVdZQ/profile-displayphoto-shrink_800_800/0/1617912369707?e=1639008000&v=beta&t=JCsR9PmZRoaEy-QX0e-g5Z5wTEgTuNL7Ynwi3j1k1rU">
-    <div class="wrapper">
-      <h2>“Uma nova etapa, agora no Grupo FCamara. Muito animada pra essa jornada, cheia de oportunidades! ❤️🍊 #sanguelaranja”</h2>
-      <p>Mileide Ribeiro, UX Designer | Product Designer<br>via LinkedIn</p>
-    </div>
-  </section>
-  <section class="address">
-    <h2>Transformação cultural, digital e cognitiva</h2>
-    <p>São Paulo<br><span>MATRIZ<br>Rua Bela Cintra, 986 - 2º andar<br>Consolação, São Paulo - SP</span></p>
-    <p>Santos<br><span>FILIAL<br>Praça Dos Expedicionários, 19<br>2º andar<br>Gonzaga, Santos - SP</span></p>
-  </section>
-</body>
-<footer>
-  <h2>Siga nossas <span>Redes Sociais</span></h2>
-  <a href="https://linktr.ee/grupofcamara" target="_blank"><img src="https://blog.fcamara.com.br/wp-content/uploads/2021/06/Redes-sociais.png"/></a>
-</footer>
-<!-- partial -->
-  <script  src="./script.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-</body>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <a href="https://www.fcamara.com.br/" class="logo" target="_blank">
+        <img src="Images/logo.svg" alt="Logo da FCamara" />
+      </a>
+    </header>
+
+    <main>
+      <!-- HEADLINE -->
+      <section class="section" id="headline">
+        <div class="container grid">
+          <div>
+            <img src="Images/esocial.png" alt="Imagem de gráficos" />
+          </div>
+          <div>
+            <h1 class="title">Estamos reabrindo<br />as portas da casa</h1>
+            <p class="subtitle">
+              Nossos consultores #SangueLaranjas agora podem retornar às suas
+              jornadas presenciais. Mas, atenção: o retorno é
+              <span>opcional</span>. Então, se você reside longe de uma de
+              nossas unidades (São Paulo e Santos) ou se ainda não se sente
+              confortável em retornar, nao se preocupe. As jornadas em home
+              office continuam!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FORM -->
+      <section class="section" id="form">
+        <div class="container grid">
+          <div>
+            <h1 class="title">
+              Quer voltar? Preencha o formulário e garanta seu retorno
+            </h1>
+            <p class="subtitle">
+              Mas antes, conheça as medidas adotadas para a jornada presencial:
+            </p>
+            <ul>
+              <li>Nossos escritórios ficarão abertos das 8h às 18h</li>
+              <li>Todos terão suas temperaturas aferidas na entrada</li>
+              <li>Lembre-se: o uso de máscara é obrigatório</li>
+              <li>
+                Para garantir o conforto e a segurança de nossos
+                #SangueLaranjas, todas as mesas terão adesivos indicando onde
+                cada um consultor deverá sentar
+              </li>
+              <li>
+                Caso sintam algum sintoma, você pode continuar em home office
+              </li>
+              <li>
+                Os escritórios só comportarão 40% de sua capacidade, conforme
+                legislação. Então, caso tenha interesse, basta fazer seu
+                agendamento aqui <span>embaixo!</span>
+              </li>
+            </ul>
+          </div>
+
+          <form
+            action="javascript: alert('Dados enviados com sucesso')"
+            class="form"
+          >
+            <label for="fullname">Nome completo*</label><br />
+            <input
+              type="text"
+              placeholder="Insira seu nome completo"
+              required
+            /><br />
+            <label for="regnum">Número da matrícula:</label><br />
+            <input
+              type="number"
+              placeholder="Insira o número de sua matrícula"
+            /><br />
+            <label for="location">Escolha em qual unidade deseja ficar*</label
+            ><br />
+            <select name="location" id="location" required>
+              <option value="" selected disabled>Selecione a unidade</option>
+              <option value="sp">São Paulo - Matriz</option>
+              <option value="santos">Santos - Filial</option>
+            </select>
+            <br />
+            <label for="period"
+              >Selecione o período desejado para a jornada presencial</label
+            ><br />
+            <input type="date" required /><br />
+            <label for="station">Selecione a estação de trabalho desejada</label
+            ><br />
+            <select name="station" id="station">
+              <option value="" disabled selected>
+                Selecione uma estação disponível
+              </option>
+              <option value="2">Estação 2</option>
+              <option value="4">Estação 4</option>
+              <option value="6">Estação 6</option>
+              <option value="8">Estação 8</option>
+              <option value="10">Estação 10</option>
+            </select>
+            <input
+              type="submit"
+              class="button"
+              id="submit"
+              value="AGENDAR RETORNO"
+            />
+          </form>
+        </div>
+      </section>
+
+      <!-- TESTIMONIAL -->
+      <section class="section" id="testimonial">
+        <div class="container grid">
+          <div>
+            <img
+              src="Images/real-user-photo.jpg"
+              alt="Foto de uma consultora FCamara"
+              class="user"
+            />
+          </div>
+          <div>
+            <blockquote class="title">
+              <p>
+                “Uma nova etapa, agora no Grupo FCamara. Muito animada pra essa
+                jornada, cheia de oportunidades! ❤️🍊 #sanguelaranja”
+              </p>
+              <cite
+                ><img
+                  src="https://media-exp1.licdn.com/dms/image/C4D03AQGgIMLjpKVdZQ/profile-displayphoto-shrink_800_800/0/1617912369707?e=1646265600&v=beta&t=vzcYYxtRWXiYLLhFSY-uNOTYX_bzXhRuWUTPO2Arc-M"
+                  alt="Foto de uma consultora FCamara"
+                />Mileide Ribeiro<br />UX Designer | Product Designer</cite
+              >
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- ADDRESSES -->
+      <section class="section" id="address">
+        <div class="container grid">
+          <div>
+            <h1 class="title">
+              Transformação cultural,<br />
+              digital e cognitiva
+            </h1>
+          </div>
+          <div id="addresses">
+            <h2>onde estamos</h2>
+            <p class="subtitle">
+              <span>São Paulo</span><br />MATRIZ<br />Rua Bela Cintra, 986 - 2º
+              andar<br />Consolação, São Paulo - SP
+            </p>
+            <p class="subtitle">
+              <span>Santos</span><br />FILIAL<br />Praça Dos Expedicionários,
+              19<br />2º andar<br />Gonzaga, Santos - SP
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section">
+      <div class="container grid">
+        <div class="social">
+          <a href="https://www.facebook.com/grupo.fcamara/" target="_blank"
+            ><img src="Images/Facebook.svg" alt="Logo Facebook"
+          /></a>
+          <a
+            href="https://www.linkedin.com/company/fcamara-consulting-&-training/"
+            target="_blank"
+            ><img src="Images/LinkedIn.svg" alt="Logo LinkedIn"
+          /></a>
+          <a href="https://www.instagram.com/grupo.fcamara/" target="_blank"
+            ><img src="Images/Instagram.svg" alt="Logo Instagram"
+          /></a>
+          <a
+            href="https://www.youtube.com/channel/UCHsQ04xha1YKv48dSzQFlpw"
+            target="_blank"
+            ><img src="Images/YouTube.svg" alt="Logo YouTube"
+          /></a>
+          <a
+            href="https://www.glassdoor.com.br/Avalia%C3%A7%C3%B5es/Grupo-FCamara-Avalia%C3%A7%C3%B5es-E668818.htm"
+            target="_blank"
+            ><img src="Images/Glassdoor.svg" alt="Logo Glassdoor"
+          /></a>
+        </div>
+        <p class="copyright">
+          © 2021 FCamara Formação e Consultoria.<br />Todos os direitos
+          reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
