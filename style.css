@@ -95,10 +95,17 @@ header {
   padding-left: 1.5rem;
 
   background: white;
+
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
 /* ========== HEADLINE ========== */
 #headline {
+  margin-top: 5rem;
   background: white;
 }
 
