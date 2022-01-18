@@ -8,8 +8,10 @@ Landing Page criada para um processo seletivo da empresa [Fcamara](https://www.f
 
 ## Sobre o desafio
 
-![](Images/responsiveness.png)
-_Clique [aqui](https://www.figma.com/file/uEwfvpIAzIkfu4Hj4l6W9p/Landing-Page-FCamara?node-id=0%3A1) para o design no Figma._
+<figure>
+  <img src="https://github.com/sucodelarangela/landing-page-fcamara/blob/master/Images/responsiveness.PNG" alt="Elephant at sunset">
+  <figcaption>Clique <a href="https://www.figma.com/file/uEwfvpIAzIkfu4Hj4l6W9p/Landing-Page-FCamara?node-id=0%3A1">aqui</a> para o design no Figma</figcaption>
+</figure>
 
 Com a diminuição das ocorrências de casos de Covid em meados de Setembro de 2021, muitas empresas voltaram a funcionar presencialmente. O objetivo da landing page é informar aos consultores da empresa sobre a possibilidade de retorno às atividades presenciais.
 
@@ -39,8 +41,10 @@ Landing Page created for a selection process for the company [Fcamara](https://w
 
 ## Sobre o desafio
 
-![](Images/responsiveness.png)
-_Clique [aqui](https://www.figma.com/file/uEwfvpIAzIkfu4Hj4l6W9p/Landing-Page-FCamara?node-id=0%3A1) para o design no Figma._
+<figure>
+  <img src="https://github.com/sucodelarangela/landing-page-fcamara/blob/master/Images/responsiveness.PNG" alt="Elephant at sunset">
+  <figcaption>Click <a href="https://www.figma.com/file/uEwfvpIAzIkfu4Hj4l6W9p/Landing-Page-FCamara?node-id=0%3A1">here</a> for Figma design</figcaption>
+</figure>
 
 When COVID cases started to reduce around September of 2021 many companies decided to have their employees in person in their facilities. The objective of this landing page is informing the company's consultants about the possibility of returning to their offices.
 
