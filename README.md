@@ -33,8 +33,6 @@ A Alura √© considerada uma das maiores plataformas de ensino em tenologia do pa√
 
 # Landing Page - FCamara
 
-For the English version of this README, click [here](#English)
-
 ## Overview
 
 Landing Page created for a selection process for the company [Fcamara](https://www.fcamara.com.br/) in partnership with [Alura](https://www.alura.com.br/) which ocurred in September, 2021.
